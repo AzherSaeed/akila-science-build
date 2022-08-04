@@ -1,0 +1,72 @@
+.Container {
+  min-height: 75vh;
+  color: white;
+  background: url(../../../assets/homePage/outlineObjectBack.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 99px;
+}
+.topContainer {
+  border: 3px solid #3134db;
+  border-radius: 10px;
+  position: relative;
+  margin: 100px 0;
+  padding: 25px 0;
+}
+
+.outlineStartBox {
+  min-width: 226px;
+  height: 52px;
+  border: 3px solid #3134db;
+  position: absolute;
+  top: -30px;
+  right: 50%;
+  transform: translateX(50%);
+  background: #030239;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 88.19%;
+  padding: 17px;
+}
+
+.outlineEndBox {
+  min-width: 226px;
+  height: 52px;
+  border: 3px solid #3134db;
+  position: absolute;
+  bottom: -30px;
+  right: 50%;
+  transform: translateX(50%);
+  background: #030239;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 88.19%;
+  padding: 17px;
+}
+.topDownArrow {
+  width: 63px;
+  height: 60px;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  top: 25px;
+}
+.bottomDownArrow {
+  width: 63px;
+  height: 60px;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  bottom: 35px;
+}

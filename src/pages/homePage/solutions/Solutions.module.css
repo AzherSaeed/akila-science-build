@@ -1,0 +1,82 @@
+.CardImage {
+  height: 45vh;
+}
+.uusecase-img-sideline {
+  position: absolute;
+
+  top: 10rem;
+  right: 6rem;
+  background: rgba(19, 19, 58, 0.14);
+}
+
+.usecase-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Raleway;
+  font-style: normal;
+}
+.usecase-text-container {
+  padding: 0 1.9rem;
+  z-index: 1;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  font-family: Raleway;
+}
+
+.about-us-img-container1 img {
+  width: 22.4rem;
+  height: 18.3rem;
+  top: 10rem;
+  left: 1rem;
+  position: absolute;
+}
+.about-us-img-container2 img {
+  width: 22.4rem;
+  height: 18.3rem;
+  bottom: 9rem;
+  right: 0;
+  position: absolute;
+}
+
+.usecase-main-heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 2.1rem;
+  letter-spacing: 0em;
+  line-height: 127.69%;
+}
+
+.usecase-title {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.6rem;
+  color: #393091;
+  padding-top: 1.9rem;
+}
+.usecase-subheading {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.2rem;
+  color: #4b4b4b;
+}
+.usecase-link-text {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1rem;
+  letter-spacing: 0em;
+  color: #393091;
+}
+@media screen and (max-width: 768px) {
+  #usecase-main {
+    background: white;
+  }
+}
+@media screen and (max-width: 480px) {
+  .usecase-container {
+    padding: 12rem 0;
+  }
+}

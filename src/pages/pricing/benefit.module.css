@@ -1,0 +1,17 @@
+.Benefit {
+  display: flex;
+  align-items: center;
+}
+
+.checkMark {
+  min-height: 20px;
+  min-width: 20px;
+}
+.text {
+  flex-grow: 5;
+  padding-left: 7.65px;
+  color: #3c3c3c;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129.69%;
+}

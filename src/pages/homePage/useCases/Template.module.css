@@ -1,0 +1,86 @@
+.CardImage {
+  max-height: 45vh;
+}
+
+.useCaseTextContainer {
+  padding: 0 1.9rem;
+  z-index: 1;
+  /*box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);*/
+  font-family: Raleway;
+  height: 100%;
+}
+
+.useCaseTitle {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.6rem;
+  color: #393091;
+  padding-top: 1.9rem;
+}
+.useCaseSubheading {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.2rem;
+  color: #4b4b4b;
+}
+.useCaseLinkText {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1rem;
+  letter-spacing: 0em;
+  color: #393091;
+  text-decoration: none;
+}
+
+.topContainer {
+  border: 3px solid #3134db;
+  border-radius: 10px;
+  position: relative;
+}
+
+.outlineStartBox {
+  width: 226px;
+  height: 52px;
+  border: 3px solid #3134db;
+  position: absolute;
+  top: -30px;
+  right: 50%;
+  transform: translateX(50%);
+  background: #030239;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outlineEndBox {
+  width: 226px;
+  height: 52px;
+  border: 3px solid #3134db;
+  position: absolute;
+  bottom: -30px;
+  right: 50%;
+  transform: translateX(50%);
+  background: #030239;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topDownArrow {
+  width: 63px;
+  height: 60px;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  top: 25px;
+}
+.bottomDownArrow  {
+  width: 63px;
+  height: 60px;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  bottom: 40px;
+}

@@ -1,0 +1,10 @@
+/*.TableStyle {
+  display: table;
+}
+.TableStyle tr {
+  display: table-cell;
+}
+.TableStyle tr td {
+  display: block;
+}
+*/

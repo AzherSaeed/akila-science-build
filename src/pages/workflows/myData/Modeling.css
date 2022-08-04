@@ -1,0 +1,82 @@
+#modeling-right-side {
+  font-style: normal;
+  color: #E7E7E7;
+}
+.load-head {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 76.69%;
+  color: #E7E7E7;
+}
+
+.model-heading-text {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  color: #E7E7E7;
+
+}
+.model-subheading-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #E7E7E7;
+
+}
+.modal-small-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #E7E7E7;
+
+}
+.line-Spacing{
+  line-height: 104.19%
+}
+.submit-btn{
+  font-family: Raleway;
+    background: linear-gradient(90.99deg, #3134DB 0.83%, #009EE1 99.4%);
+    border-radius: 2.5rem;
+    padding: 1rem 3rem;
+    border: none;
+    color: 
+    #FFFFFF;
+    cursor: pointer;
+}
+.select-model{
+  width: 50%;
+}
+.select-model2{
+  width: 100%;
+}
+.register-btn{
+  font-family: Poppins;
+border-radius: 2.5rem;
+background: none;
+border-radius: 2.5rem;
+cursor: pointer;
+padding: 1.3rem 4rem;
+font-size: 1.5rem;
+font-weight: 500;
+line-height: 1.2rem;
+color: #E3E3E3;
+border: 1px solid #009EE1;
+}
+.login-btn{
+    font-family: Poppins;
+    border-radius: 2.5rem;
+    background: linear-gradient(90.99deg, #3134db 0.83%, #009ee1 99.4%);
+    border-radius: 2.5rem;
+    border: none;
+   width: 11.4rem;
+   height: 4.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    color: #ffffff;
+    cursor: pointer;
+    text-transform: capitalize;
+  
+}
+

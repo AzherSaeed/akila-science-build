@@ -1,0 +1,18 @@
+.inputLabel {
+  color: white;
+}
+
+.inputForm {
+  color: orange;
+  font-size: 50;
+}
+
+input[type="number"] {
+  font-size: 3rem;
+  height: auto;
+  color: black;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  font-size: 2rem;
+}

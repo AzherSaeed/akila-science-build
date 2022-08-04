@@ -1,0 +1,21 @@
+.cardPricing {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cardDescription {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* backgroundColor="red"
+fontWeight="500"
+fontSize="14px"
+lineHeight="129.69%"
+color="#3C3C3C"
+marginBottom="55px" */

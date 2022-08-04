@@ -1,0 +1,23 @@
+.data-transform-head {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem;
+  color: #ffffff;
+  color: white;
+}
+.merge-subhead {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+
+  color: white;
+}
+
+.merge-1 {
+  width: 70%;
+  margin-top: 1.2rem;
+}
+.merge-2 {
+  width: 50%;
+}

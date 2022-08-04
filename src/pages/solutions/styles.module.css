@@ -1,0 +1,8 @@
+.card__content {
+  position: absolute;
+  /* other styles (left, top, right, and padding) */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 80;
+}

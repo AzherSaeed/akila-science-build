@@ -1,0 +1,105 @@
+.Container {
+  height: 85vh;
+  color: white;
+  /*background-image: url('../../assets/Request-A-Demo-Background.png'); */
+}
+
+.requestDemoContainer {
+  background-image: url('../../assets/homePage/requestDemoBG.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 465px;
+  padding: 80px 20px;
+  margin-top: 100px;
+}
+
+.logosection {
+  display: flex;
+  align-items: center;
+}
+.requestDemoContainer h1 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 120.22%;
+}
+@media screen and (max-width: 1000px) {
+  .requestDemoContainer h1 {
+    font-size: 40px;
+  }
+}
+.requestDemoButtons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.requestDemoButtons .firstButton {
+  background: linear-gradient(90.99deg, #3134db 0.83%, #009ee1 99.4%);
+  border-radius: 22.5px;
+  padding: 17px 37px;
+  border: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 78.5%;
+  color: #ffffff;
+  cursor: pointer;
+}
+.requestDemoButtons .secondButton {
+  background: transparent;
+  border: 1px solid #0398e1;
+  border-radius: 22.5px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 78.5%;
+  color: #ffffff;
+  padding: 17px 35px;
+  cursor: pointer;
+}
+
+#RequestADemoH1 {
+  color: white;
+  padding: 10%;
+  text-align: center;
+  font-size: 4rem;
+  height: 15vh;
+}
+
+#image {
+  height: 20vh;
+}
+
+.logo {
+  text-align: center;
+}
+
+#ImageCaption {
+  font-size: 3rem;
+}
+
+/* media queries */
+/* media queries for demo buttons */
+
+@media screen and (max-width: 414px) {
+  .requestDemoButtons {
+    padding-top: 25px;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .requestDemoContainer h1 {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "rules": {
+    "react/prop-types": 0,
+    "react/jsx-filename-extension": 0,
+    "react/no-unescaped-entities": 0,
+    "import/no-extraneous-dependencies": ["error", { "packageDir": "./" }],
+    "no-unused-expressions": [1, { "allowTernary": true }],
+    "react/jsx-props-no-spreading": 0,
+    "react/react-in-jsx-scope": 0,
+    "react/jsx-no-useless-fragment": 0
+  },
+  "settings": {
+    "import/core-modules": ["@pages"],
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx"]
+      },
+      "alias": {
+        "map": [
+          ["@components", "./src/components/"],
+          ["@assets", "./src/assets"],
+          ["@pages", "./src/pages/"],
+          ["@routes", "./src/routes/"],
+          ["@contexts", "./src/contexts"],
+          ["@solutions", "./src/pages/solutions"],
+          ["@useCases", "./src/pages/useCases"],
+          ["@config", "./src/config.js"],
+          ["@src", "./src"],
+          ["@utils", "./src/utils"],
+          ["@theme", "./src/theme"]
+        ],
+        "extensions": [".js", ".jsx", ".json"]
+      }
+    }
+  },
+  "extends": ["plugin:react/recommended", "airbnb", "prettier", "plugin:import/react"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "prettier"]
+}

@@ -1,0 +1,23 @@
+.dashboardRoot {
+  display: flex;
+  flex-direction: column;
+  min-height: "100vh";
+}
+
+.container {
+  display: flex;
+}
+
+.leftNavbar {
+  flex: 0;
+}
+.main {
+  flex: 1;
+  margin-left: 5%;
+}
+
+.card {
+  height: "20vh";
+  width: "20vw";
+  background-color: "yellow";
+}

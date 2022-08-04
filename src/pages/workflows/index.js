@@ -1,0 +1,11 @@
+export { default as WorkflowHome } from './home';
+export { default as DataConnections } from './dataConnections';
+export { default as MyData } from './myData';
+export { default as DataProcessing } from './dataProcessing';
+export { default as Visualizations } from './visualizations';
+export { default as NewDashboard } from './visualizations/newDashboard/NewDashboard';
+export { default as NewChart } from './visualizations/newChart/NewChart';
+export { default as BuildModel } from './machineLearning/buildModel';
+export { default as AutoML } from './machineLearning/autoML';
+export { default as MachineLearning } from './machineLearning';
+export { default as Scheduler } from './scheduler';

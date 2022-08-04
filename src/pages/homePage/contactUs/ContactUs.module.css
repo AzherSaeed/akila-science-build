@@ -1,0 +1,47 @@
+.ContactUsMain {
+  position: relative;
+}
+.ContactusImgContainer {
+  position: absolute;
+  top: 17rem;
+  left: 7rem;
+}
+.ContactUsHeading {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 88.19%;
+  color: #e3e3e3;
+}
+
+#ContactUsForm {
+  font-family: Poppins;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0.8rem 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  background-color: #030239;
+  border-radius: 5px;
+  color: white;
+}
+
+.SaveBtn {
+  font-family: Poppins;
+  border-radius: 2.5rem;
+  background: linear-gradient(90.99deg, #3134db 0.83%, #009ee1 99.4%);
+  border-radius: 2.5rem;
+  border: none;
+  width: 11.4rem;
+  height: 4.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  color: #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+}

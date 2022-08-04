@@ -1,0 +1,53 @@
+#FeaturesImage {
+  width: 100%;
+}
+
+/*
+ ######### Workflow section############
+ */
+
+.Workflow {
+  min-height: 85vh;
+  height: auto;
+  color: white;
+  width: 90vw;
+  font-size: 2rem;
+}
+
+#WorkflowTitle {
+  margin-left: 5%;
+}
+
+.FlexboxWorkflow {
+  display: flex;
+}
+
+.WorkflowContainer {
+  width: 20vw;
+  margin-left: 5%;
+}
+
+.SolutionsImage {
+  display: block;
+  width: 30%;
+  background-color: transparent;
+}
+
+.WorkflowText {
+  text-align: center;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+/*
+ ######### Request A Demo section############
+ */
+.RequestADemo {
+  height: 85vh;
+  color: white;
+  font-size: 2rem;
+}
+
+#RequestADemoTitle {
+  margin-left: 5%;
+}

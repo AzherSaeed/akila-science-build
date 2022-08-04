@@ -1,0 +1,10 @@
+
+.tabs-container .tab {
+  color: #e7e7e7;
+  text-transform: capitalize !important;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2rem;
+  letter-spacing: 0em;
+}
